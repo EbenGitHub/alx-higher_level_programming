@@ -1,3 +1,3 @@
 #!/bin/bash
-#displays the size of the body of the response
+#displays the size of the body of the response. Must use -s flag
 curl -sI "$1" | grep "Content-Length" | cut -f2 -d " "
