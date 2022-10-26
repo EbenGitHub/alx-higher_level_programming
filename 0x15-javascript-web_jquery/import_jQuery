@@ -1,3 +1,9 @@
+Whenever using jQuery API, we need to import jQuery like this:
 <head>
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 </head>
+But we don't need to import if we are using document.query selector
+We also need to define document ready function before writing any jQuery and then write jQuery inside the jQuery ready function. This will make our javascript code to excute after our html is loaded.
+
+Then to import our js file
+<script type="text/javascript" src="1-script.js"></script>
